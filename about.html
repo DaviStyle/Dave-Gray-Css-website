@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About LTS</title>
+    <meta
+      name="description"
+      content="A shopping website about Tacos that helps people to by andknow information about Tacos"
+    />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="David" />
+
+    <link rel="stylesheet" href="website.css" />
+    <link rel="icon" href="images/download.jpeg" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Little Taco Shop</h1>
+
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="website.html">Home</a>
+          </li>
+
+          <li>
+            <a href="website.html#menu">Menu</a>
+          </li>
+
+          <li>
+            <a href="storehours.html">Hours</a>
+          </li>
+
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <figure>
+        <img
+          src="images/tacos_delicioso_1000x667.png"
+          alt="Tacos Delicious"
+          title="We love taco"
+          width="1000"
+          height="667"
+        />
+        <figcaption class="offscreen">Tacos Delicious</figcaption>
+      </figure>
+    </section>
+
+    <main class="main">
+      <article id="about" class="main__article about">
+        <h2>About <abbr title="The Little tacos shop">LTS</abbr></h2>
+        <p>
+          <abbr title="The Little tacos shop">LTS</abbr> was founded in
+          <time datetime="2022">2022</time>. Our shop was built from a
+          <strong>love of tacos</strong>
+          &#127790; &#127790; &#127790;. We hope our shop add a unique and
+          interesting place to our little town.
+        </p>
+        <h3>Taco Trivia</h3>
+        <aside class="about__trivia">
+          <details>
+            <summary>When did tacos fisrt appear in the United States?</summary>
+            <p class="about__trivia-answer">
+              Tacos first appeared in the United States in
+              <time datetime="1905">1905</time>. (Source:<cite>
+                <a
+                  href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/#:~:text=The%20first%20mention%20that%20I,to%20become%20a%20nightly%20event."
+                  >smithsonian Magazine</a
+                >)
+              </cite>
+            </p>
+          </details>
+        </aside>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">The Little Taco Shop</span>
+      </p>
+    </footer>
+  </body>
+</html>
